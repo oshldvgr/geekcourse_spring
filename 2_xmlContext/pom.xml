@@ -9,7 +9,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>task1</artifactId>
+    <artifactId>2_xmlContext</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>shadrina/geekcourse/spring</groupId>
+            <artifactId>1_base</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

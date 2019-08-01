@@ -1,8 +1,12 @@
+package decorations;
+
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
+
+
 public abstract class Decoration {
     private Colors color;
     private Size size;

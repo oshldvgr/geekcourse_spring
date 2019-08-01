@@ -1,3 +1,5 @@
+import decorations.*;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,5 +21,6 @@ public class Application {
         tree.setDecorations(listBall);
 
         tree.run();
+
     }
 }

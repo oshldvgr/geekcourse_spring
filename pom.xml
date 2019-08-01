@@ -9,8 +9,10 @@
     <packaging>pom</packaging>
     <version>1.0</version>
     <modules>
-        <module>task1</module>
-        <module>xmlContext</module>
+        <module>1_base</module>
+        <module>2_xmlContext</module>
+        <module>3_javaBasedConfig</module>
+        <module>4_annotationConfig</module>
     </modules>
 
     <properties>
