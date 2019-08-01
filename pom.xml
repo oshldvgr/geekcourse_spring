@@ -10,6 +10,7 @@
     <version>1.0</version>
     <modules>
         <module>task1</module>
+        <module>xmlContext</module>
     </modules>
 
     <properties>

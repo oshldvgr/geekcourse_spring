@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 public class Application {
     public static void main(String args[]) {
         Christmastree tree = new Christmastree();
@@ -10,8 +13,10 @@ public class Application {
         bulb.setColor(Colors.GOLD);
         bulb.setSize(Size.SMALL);
 
-        tree.setBall(ball);
-        tree.setBulb(bulb);
+        List<Decoration> listBall = new ArrayList<>();
+        listBall.add(ball);
+        listBall.add(bulb);
+        tree.setDecorations(listBall);
 
         tree.run();
     }

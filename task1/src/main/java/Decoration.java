@@ -9,6 +9,6 @@ public abstract class Decoration {
 
     @Override
     public String toString() {
-        return (color + " " + size + "; hash-code: " + this.hashCode());
+        return (color + " " + size + " hash-code: " + this.hashCode());
     }
 }
